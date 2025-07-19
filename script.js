@@ -18,7 +18,9 @@ boton.addEventListener("click", function (event) {
 );
 
 
-function agregarTareaConEnter(event) {
+/* function agregarTareaConEnter(event) {
+    console.log("Presionaste una tecla:", event.key); // 👈 Agregá esto
+
     // Verifica si la tecla presionada es Enter (código 13) 
     if (event.key === "Enter") {
         event.preventDefault(); // Evita que el formulario se envíe y la página se recargue
@@ -31,7 +33,7 @@ function agregarTareaConEnter(event) {
         input.value = ""; // Limpiar el campo de entrada
     }
 }
-
+ */
 
 
 
